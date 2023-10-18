@@ -6,6 +6,10 @@ variable "instance_type_value" {
     description = "value for instance_type"
 }
 
-variable "subnet_id_value" {
-    description = "value for the subnet_id"
+variable "key_name" {
+    description = "value for the key"
+}
+
+variable "security_groups" {
+    description = "value for security_groups"
 }
