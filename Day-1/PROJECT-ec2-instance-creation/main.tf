@@ -6,6 +6,8 @@ provider "aws" {
 resource "aws_instance" "example" {
     ami           = "ami-0a5ac53f63249fba0"  # Specify an appropriate AMI ID
     instance_type = "t2.micro"
+    key_name = "firstec2"
+    security_groups = [ "launch-wizard-1" ]
 }
 # Secret Key: sr9LPgpIxJgEGPVZ1ETe5+3BRdjscRQZchg9Jblp
 # Access Key: AKIAR42UHEJF6Q5YDPC6
