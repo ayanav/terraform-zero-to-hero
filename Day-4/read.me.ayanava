@@ -1,0 +1,3 @@
+1. First execute the file under folder called lockfile
+    terraform init/terraform apply
+2. Apply the main.tf file in the Day4 root folder
